@@ -37,10 +37,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=akbarstorevpn
-organizationalunit=akbarstorevpn
-commonname=akbarstorevpn
-email=akbarssh21@gmail.com
+organization=mrnetworkvpn
+organizationalunit=mrnetworkvpn
+commonname=mrnetworkvpn
+email=mahrulrialdi@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${mrnetworkvpn}/password"
@@ -290,7 +290,7 @@ cat > /etc/systemd/system/stunnel5.service << END
 [Unit]
 Description=Stunnel5 Service
 Documentation=https://stunnel.org
-Documentation=https://github.com/Akbar218
+Documentation=https://mrnetwork.my.id
 After=syslog.target network-online.target
 
 [Service]

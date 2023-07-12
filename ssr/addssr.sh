@@ -23,7 +23,7 @@ echo ""
 echo -e "Username ${RED}${ssr_user}${NC} Already On VPS Please Choose Another"
 exit 1
 fi
-source /var/lib/akbarstorevpn/ipvps.conf
+source /var/lib/mrnetworkvpn/ipvps.conf
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else

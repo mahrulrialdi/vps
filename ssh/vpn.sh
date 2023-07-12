@@ -15,7 +15,7 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 clear
-# By Akbar Maulana
+# By MRNetwork
 # ==================================================
 # Link Hosting Kalian
 mrnetworkvpn="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/ssh"

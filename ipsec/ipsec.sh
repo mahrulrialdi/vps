@@ -2,7 +2,7 @@
 # Debian 9 & 10 64bit
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
-# By Akbar Maulana
+# By MRNetwork
 # MRNetwork
 # ==========================================
 # Color
@@ -301,6 +301,6 @@ wget -O /usr/bin/addpptp https://${mrnetworkvpn}/addpptp.sh && chmod +x /usr/bin
 wget -O /usr/bin/delpptp https://${mrnetworkvpn}/delpptp.sh && chmod +x /usr/bin/delpptp
 wget -O /usr/bin/renewpptp https://${mrnetworkvpn}/renewpptp.sh && chmod +x /usr/bin/renewpptp
 wget -O /usr/bin/renewl2tp https://${mrnetworkvpn}/renewl2tp.sh && chmod +x /usr/bin/renewl2tp
-touch /var/lib/akbarstorevpn/data-user-l2tp
-touch /var/lib/akbarstorevpn/data-user-pptp
+touch /var/lib/mrnetworkvpn/data-user-l2tp
+touch /var/lib/mrnetworkvpn/data-user-pptp
 rm -f /root/ipsec.sh

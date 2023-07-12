@@ -28,7 +28,7 @@ http=2944
 else
 http="$((lastport2+1))"
 fi
-source /var/lib/akbarstorevpn/ipvps.conf
+source /var/lib/mrnetworkvpn/ipvps.conf
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else

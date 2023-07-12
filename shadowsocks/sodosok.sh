@@ -1,5 +1,5 @@
 #!/bin/bash
-#shadowsocks-libev obfs install by Akbar Maulana
+#shadowsocks-libev obfs install by MRNetwork
 # MRNetwork
 # ==========================================
 # Color

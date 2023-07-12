@@ -30,7 +30,7 @@ cp -r wireguard /etc/
 cp chap-secrets /etc/ppp/
 cp passwd1 /etc/ipsec.d/passwd
 cp ss.conf /etc/shadowsocks-libev/ss.conf
-cp -r akbarstorevpn /var/lib/
+cp -r mrnetworkvpn /var/lib/
 cp -r sstp /home/
 cp -r xray /etc/
 cp -r trojan-go /etc/

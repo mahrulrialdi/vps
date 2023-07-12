@@ -26,7 +26,7 @@ chmod +x /usr/local/bin/ws-nontls
 # Installing Service
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
-Description=Python Proxy Mod By Akbar Maulana
+Description=Python Proxy Mod By MRNetwork
 Documentation=https://mrnetwork.my.id
 After=network.target nss-lookup.target
 

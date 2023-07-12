@@ -2,7 +2,7 @@
 # Debian 9 & 10 64bit
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
-# By Akbar Maulana
+# By MRNetwork
 # MRNetwork
 # ==========================================
 # Color
@@ -40,7 +40,7 @@ if [[ -e /etc/wireguard/params ]]; then
 	exit 1
 fi
 
-echo -e "${Info} Wireguard Script By Akbar Maulana"
+echo -e "${Info} Wireguard Script By MRNetwork"
 # Detect public IPv4 address and pre-fill for the user
 
 # Detect public interface and pre-fill for the user

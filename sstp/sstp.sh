@@ -39,15 +39,15 @@ fi
 fi
 mkdir /home/sstp
 touch /home/sstp/sstp_account
-touch /var/lib/akbarstorevpn/data-user-sstp
+touch /var/lib/mrnetworkvpn/data-user-sstp
 #detail nama perusahaan
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=akbarstorevpn
-organizationalunit=akbarstorevpn
-commonname=akbarstorevpn
-email=akbarssh21@gmail.com
+organization=mrnetworkvpn
+organizationalunit=mrnetworkvpn
+commonname=mrnetworkvpn
+email=mahrulrialdi@gmail.com
 
 #install sstp
 apt-get install -y build-essential cmake gcc linux-headers-`uname -r` git libpcre3-dev libssl-dev liblua5.1-0-dev ppp

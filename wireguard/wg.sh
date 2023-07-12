@@ -3,7 +3,7 @@
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
 # By Akbar Maulana
-# My Telegram : https://t.me/Akbar218
+# MRNetwork
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -21,7 +21,7 @@ echo "Checking VPS"
 clear
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givpn/autoscriptvps/master/wireguard"
+mrnetworkvpn="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then
@@ -106,9 +106,9 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O addwg "https://${akbarvpn}/addwg.sh"
-wget -O delwg "https://${akbarvpn}/delwg.sh"
-wget -O renewwg "https://${akbarvpn}/renewwg.sh"
+wget -O addwg "https://${mrnetworkvpn}/addwg.sh"
+wget -O delwg "https://${mrnetworkvpn}/delwg.sh"
+wget -O renewwg "https://${mrnetworkvpn}/renewwg.sh"
 chmod +x addwg
 chmod +x delwg
 chmod +x renewwg

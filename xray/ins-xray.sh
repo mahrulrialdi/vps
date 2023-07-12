@@ -341,7 +341,7 @@ END
 cat > /etc/systemd/system/xray.service << END
 [Unit]
 Description=Xray Service By Akbar Maulana
-Documentation=https://t.me/Akbar218
+Documentation=https://mrnetwork.my.id
 After=network.target nss-lookup.target
 
 [Service]
@@ -459,7 +459,7 @@ END
 cat > /etc/systemd/system/trojan-go.service << END
 [Unit]
 Description=Trojan-Go Service By Akbar Maulana
-Documentation=https://t.me/Akbar218
+Documentation=https://mrnetwork.my.id
 After=network.target nss-lookup.target
 
 [Service]

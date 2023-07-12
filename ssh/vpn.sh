@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/Akbar218
+# MRNetwork
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -18,7 +18,7 @@ clear
 # By Akbar Maulana
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givpn/autoscriptvps/master/ssh"
+mrnetworkvpn="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/ssh"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
@@ -32,7 +32,7 @@ apt install openvpn easy-rsa unzip -y
 apt install openssl iptables iptables-persistent -y
 mkdir -p /etc/openvpn/server/easy-rsa/
 cd /etc/openvpn/
-wget https://${akbarvpn}/vpn.zip
+wget https://${mrnetworkvpn}/vpn.zip
 unzip vpn.zip
 rm -f vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/

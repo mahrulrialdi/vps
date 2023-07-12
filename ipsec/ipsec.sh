@@ -3,7 +3,7 @@
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
 # By Akbar Maulana
-# My Telegram : https://t.me/Akbar218
+# MRNetwork
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -21,7 +21,7 @@ echo "Checking VPS"
 clear
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givpn/autoscriptvps/master/ipsec"
+mrnetworkvpn="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/ipsec"
 
 VPN_IPSEC_PSK='myvpn'
 NET_IFACE=$(ip -o $NET_IFACE -4 route show to default | awk '{print $5}');
@@ -295,12 +295,12 @@ mkdir -p /run/pluto
 service fail2ban restart 2>/dev/null
 service ipsec restart 2>/dev/null
 service xl2tpd restart 2>/dev/null
-wget -O /usr/bin/addl2tp https://${akbarvpn}/addl2tp.sh && chmod +x /usr/bin/addl2tp
-wget -O /usr/bin/dell2tp https://${akbarvpn}/dell2tp.sh && chmod +x /usr/bin/dell2tp
-wget -O /usr/bin/addpptp https://${akbarvpn}/addpptp.sh && chmod +x /usr/bin/addpptp
-wget -O /usr/bin/delpptp https://${akbarvpn}/delpptp.sh && chmod +x /usr/bin/delpptp
-wget -O /usr/bin/renewpptp https://${akbarvpn}/renewpptp.sh && chmod +x /usr/bin/renewpptp
-wget -O /usr/bin/renewl2tp https://${akbarvpn}/renewl2tp.sh && chmod +x /usr/bin/renewl2tp
+wget -O /usr/bin/addl2tp https://${mrnetworkvpn}/addl2tp.sh && chmod +x /usr/bin/addl2tp
+wget -O /usr/bin/dell2tp https://${mrnetworkvpn}/dell2tp.sh && chmod +x /usr/bin/dell2tp
+wget -O /usr/bin/addpptp https://${mrnetworkvpn}/addpptp.sh && chmod +x /usr/bin/addpptp
+wget -O /usr/bin/delpptp https://${mrnetworkvpn}/delpptp.sh && chmod +x /usr/bin/delpptp
+wget -O /usr/bin/renewpptp https://${mrnetworkvpn}/renewpptp.sh && chmod +x /usr/bin/renewpptp
+wget -O /usr/bin/renewl2tp https://${mrnetworkvpn}/renewl2tp.sh && chmod +x /usr/bin/renewl2tp
 touch /var/lib/akbarstorevpn/data-user-l2tp
 touch /var/lib/akbarstorevpn/data-user-pptp
 rm -f /root/ipsec.sh

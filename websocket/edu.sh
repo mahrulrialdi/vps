@@ -1,6 +1,6 @@
 #!/bin/bash
 # Proxy For Edukasi & Imclass
-# My Telegram : https://t.me/Akbar218
+# MRNetwork
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -17,17 +17,17 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givpn/autoscriptvps/master/websocket"
+mrnetworkvpn="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/websocket"
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-nontls https://${akbarvpn}/websocket.py
+wget -q -O /usr/local/bin/ws-nontls https://${mrnetworkvpn}/websocket.py
 chmod +x /usr/local/bin/ws-nontls
 
 # Installing Service
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
 Description=Python Proxy Mod By Akbar Maulana
-Documentation=https://t.me/Akbar218
+Documentation=https://mrnetwork.my.id
 After=network.target nss-lookup.target
 
 [Service]
@@ -48,7 +48,7 @@ systemctl enable ws-nontls
 systemctl restart ws-nontls
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-ovpn https://${akbarvpn}/ws-ovpn.py
+wget -q -O /usr/local/bin/ws-ovpn https://${mrnetworkvpn}/ws-ovpn.py
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
@@ -76,7 +76,7 @@ systemctl enable ws-ovpn
 systemctl restart ws-ovpn
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-tls https://${akbarvpn}/ws-tls
+wget -q -O /usr/local/bin/ws-tls https://${mrnetworkvpn}/ws-tls
 chmod +x /usr/local/bin/ws-tls
 
 # Installing Service

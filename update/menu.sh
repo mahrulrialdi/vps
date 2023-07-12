@@ -42,7 +42,7 @@ echo -e "$yy 11$y. TROJAN GO MENU$wh"
 echo -e "$yy 12$y. Settings$wh"
 echo -e "$yy 13$y. Exit$wh"
 echo -e "$y-------------------------------------------------$wh"
-echo -e "$yl            Telegram : t.me/givpn$wh"
+echo -e "$yl                Welcome Mahrul$wh"
 echo -e "$y-------------------------------------------------$wh"
 read -p "Select From Options [ 1 - 13 ] : " menu
 case $menu in

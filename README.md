@@ -140,7 +140,7 @@ apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && reboot
 ```
 - Step 2 Install
 ```
-rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/givpn/autoscriptvps/master/setup.sh && chmod +x setup.sh && ./setup.sh
+rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 # Hubungi saya jika ada yang perlu ditanyakan

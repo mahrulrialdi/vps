@@ -142,21 +142,9 @@ apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && reboot
 ```
 rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
-
-# Hubungi saya jika ada yang perlu ditanyakan
-# Telegram
-[![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/givpn/)
-[![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/givpn_grup)
-
-# Belikan saya kopi
-[![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-blue)](https://paypal.me/givpn11)
-[![QRIS donate button](https://img.shields.io/badge/Donate-QRIS-red)](https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/qris-givpn.jpg)
   
 # PERHATIAN BACA SECARA SEKSAMA
 - DILARANG DIPERJUAL BELIKAN KARENA SAYA MENDAPATKAN SECARA GRATIS DARI INTERNET
 - GUNAKAN SECARA BIJAK
 # PESAN AKHIR
 - TERIMAKASIH SUDAH MELUANGKAN WAKTU UNTUK MEMBACA
-
-# LICENSI POLISI TIDUR
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)

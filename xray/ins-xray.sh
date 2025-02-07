@@ -10,7 +10,7 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 
-MYIP="217.15.160.117";
+MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 domain=$(cat /etc/xray/domain)
 apt install iptables iptables-persistent -y

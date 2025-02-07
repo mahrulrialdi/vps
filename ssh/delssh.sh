@@ -12,7 +12,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-MYIP="217.15.160.117";
+MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 read -p "Username SSH to Delete : " Pengguna
 

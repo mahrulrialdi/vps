@@ -12,10 +12,10 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-MYIP="217.15.160.117";
+MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 clear
-MYIP="217.15.160.117";
+MYIP=$(wget -qO- ipinfo.io/ip);
 ovpn="$(netstat -nlpt | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
 ovpn2="$(netstat -nlpu | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
 echo -e "======================================"

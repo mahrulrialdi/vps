@@ -12,13 +12,13 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-MYIP="217.15.160.117";
+MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 clear
 # Link Hosting Kalian
 mrnetworkvpn="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/sstp"
 
-MYIP="217.15.160.117";
+MYIP=$(wget -qO- ipinfo.io/ip);
 MYIP2="s/xxxxxxxxx/$MYIP/g";
 NIC=$(ip -o $ANU -4 route show to default | awk '{print $5}');
 source /etc/os-release

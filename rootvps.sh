@@ -1,6 +1,6 @@
 # by givpn
 # ipinfo
-MYIP="217.15.160.117";
+MYIP=$(wget -qO- ipinfo.io/ip);
 # pewarna hidup
 Bred="\e[1;31m"
 BGreen='\e[1;32m'

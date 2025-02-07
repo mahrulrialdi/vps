@@ -40,7 +40,8 @@ mrnetworkws="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/webso
 mrnetworkohp="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/ohp"
 
 # Getting
-MYIP=$(wget -qO- ipinfo.io/ip);
+#MYIP=$(wget -qO- ipinfo.io/ip);
+MYIP="217.15.160.117";
 echo "Checking VPS"
 clear
 rm -f setup.sh

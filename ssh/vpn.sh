@@ -12,7 +12,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-MYIP=$(wget -qO- ipinfo.io/ip);
+MYIP="217.15.160.117";
 echo "Checking VPS"
 clear
 # By MRNetwork
@@ -23,7 +23,7 @@ mrnetworkvpn="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/ssh"
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
 OS=`uname -m`;
-MYIP=$(wget -qO- ipinfo.io/ip);
+MYIP="217.15.160.117";
 MYIP2="s/xxxxxxxxx/$MYIP/g";
 ANU=$(ip -o $ANU -4 route show to default | awk '{print $5}');
 

@@ -11,7 +11,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-MYIP=$(wget -qO- ipinfo.io/ip);
+MYIP="217.15.160.117";
 # ==================================================
 # Link Hosting Kalian
 mrnetworkvpn="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/ssh"
@@ -27,7 +27,7 @@ mrnetworkss="raw.githubusercontent.com/mahrulrialdi/auto-script-vps/master/stunn
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
-MYIP=$(wget -qO- ipinfo.io/ip);
+MYIP="217.15.160.117";
 MYIP2="s/xxxxxxxxx/$MYIP/g";
 NET=$(ip -o $ANU -4 route show to default | awk '{print $5}');
 source /etc/os-release

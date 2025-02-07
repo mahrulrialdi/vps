@@ -11,7 +11,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-MYIP=$(wget -qO- ipinfo.io/ip);
+MYIP="217.15.160.117";
 clear
 read -rp "Domain/Host : " -e domain
 echo "IP=$domain" >>/var/lib/mrnetworkvpn/ipvps.conf

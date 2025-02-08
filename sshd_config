@@ -14,8 +14,8 @@
 Port 22
 Port 657
 # Port lainnya
-Port 4443
-Port 82
+Port 443
+Port 80
 Port 81
 Port 89
 Port 1194

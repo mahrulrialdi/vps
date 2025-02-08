@@ -59,13 +59,13 @@
 
 # Service & Port
 
-• OpenSSH                 : 4443, 22
+• OpenSSH                 : 443, 22
 
 • OpenVPN                 : TCP 1194, UDP 2200, SSL 990
 
-• Stunnel5                : 4443, 445, 777
+• Stunnel5                : 443, 445, 777
 
-• Dropbear                : 4443, 109, 143
+• Dropbear                : 443, 109, 143
 
 • Squid Proxy             : 3128, 8080
 
@@ -89,15 +89,15 @@
 
 • XRAYS Vmess TLS         : 6443
 
-• XRAYS Vmess None TLS    : 82
+• XRAYS Vmess None TLS    : 80
 
 • XRAYS Vless TLS         : 6443
 
-• XRAYS Vless None TLS    : 82
+• XRAYS Vless None TLS    : 80
 
 • XRAYS Trojan            : 2083
 
-• Websocket TLS           : 4443
+• Websocket TLS           : 443
 
 • Websocket None TLS      : 8888
 
